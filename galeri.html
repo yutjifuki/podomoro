@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podomoro</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      body {
+        background-color: rgba(231, 231, 231, 0.804);
+      }
+
+      nav {
+        height: max-content;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .navigation .tokoTitle {
+        flex-grow: 2;
+        background-color: rgb(140, 149, 149);
+        padding-left: 10%;
+        padding-block: 20px;
+      }
+
+      .navigation .tokoTitle h1 {
+        color: rgb(247, 233, 155);
+      }
+
+      .navigation ul {
+        display: flex;
+        background-color: rgb(247, 233, 155);
+        align-items: center;
+        flex-grow: 1;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      /* =============== */
+
+      section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-block: 20px;
+        align-items: center;
+      }
+
+      section .galeri {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-inline: 20px;
+        justify-content: center;
+      }
+
+      section .galeri img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        transition: 0.3s;
+      }
+
+      section .galeri img:hover {
+        transform: scale(1.2);
+      }
+
+      /* =============== */
+      footer {
+        border-top: thick double rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <div class="tokoTitle">
+          <h1>Podomoro</h1>
+          <span>toko olahan ikan</span>
+        </div>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="profil.html"> Profil</a></li>
+          <li><a href="produk.html"> Produk</a></li>
+          <li><a href="galeri.html"> Galeri</a></li>
+          <li><a href="pemesanan.html"> Pemesanan</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h1>Galeri</h1>
+      <p>Galeri Toko Podomoro</p>
+      <div class="galeri">
+        <div class="galeri-1">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYQf-lmV_BrB2NKuqJhpOJ0AZ-lofTidKAg&s"
+            alt="galeri-1"
+          />
+        </div>
+        <div class="galeri-2">
+          <img
+            src="https://i.pinimg.com/564x/0f/3c/a1/0f3ca165e574c67e0cd979cc121c28b4.jpg"
+            alt="galeri-2"
+          />
+          <br />
+        </div>
+        <div class="galeri-3">
+          <img
+            src="https://cdn.antaranews.com/cache/1200x800/2011/07/20110726042748keripikpisang260711-4.jpg.webp"
+            alt="galeri-3"
+          />
+          <br />
+        </div>
+        <div class="galeri-4">
+          <img
+            src="https://down-id.img.susercontent.com/file/217956ffd0ae16d055d39076335369a4"
+            alt="galeri-4"
+          />
+        </div>
+        <div class="galeri-5">
+          <img
+            src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/radarjombang/2023/03/WhatsApp-Image-2023-03-08-at-20.51.15.jpeg"
+            alt="galeri-5"
+          />
+        </div>
+        <div class="galeri-6">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4gndSh1UuolzeVYl4ayQuz7LJAA1vdhXFKA&s"
+            alt="galeri-6"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <i>Copyright ©</i>&nbsp;
+      <h5>2024 - Toko Olahan Ikan Podomoro</h5>
+    </footer>
+  </body>
+</html>

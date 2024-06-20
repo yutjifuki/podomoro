@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podomoro</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      body {
+        background-color: rgba(231, 231, 231, 0.804);
+      }
+
+      nav {
+        height: max-content;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .navigation .tokoTitle {
+        flex-grow: 2;
+        background-color: rgb(140, 149, 149);
+        padding-left: 10%;
+        padding-block: 20px;
+      }
+
+      .navigation .tokoTitle h1 {
+        color: rgb(247, 233, 155);
+      }
+
+      .navigation ul {
+        display: flex;
+        background-color: rgb(247, 233, 155);
+        align-items: center;
+        flex-grow: 1;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      /* =============== */
+
+      section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-block: 20px;
+        align-items: center;
+      }
+
+      section .produk {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-inline: 20px;
+        justify-content: center;
+      }
+
+      section .produk img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      /* =============== */
+      footer {
+        border-top: thick double rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <div class="tokoTitle">
+          <h1>Podomoro</h1>
+          <span>toko olahan ikan</span>
+        </div>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="profil.html"> Profil</a></li>
+          <li><a href="produk.html"> Produk</a></li>
+          <li><a href="galeri.html"> Galeri</a></li>
+          <li><a href="pemesanan.html"> Pemesanan</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h1>Produk</h1>
+      <p>Produk Podomoro</p>
+      <div class="produk">
+        <div class="produk-1">
+          <img
+            src="https://i.pinimg.com/564x/ae/d6/ef/aed6ef0c576ddfafd204249c8dfd36c7.jpg"
+            alt="produk-1"
+          />
+          <br />
+          <span
+            ><b>Rp15,000 </b><br />
+            keripik ikan <br />kode : P01</span
+          >
+        </div>
+        <div class="produk-2">
+          <img
+            src="https://i.pinimg.com/564x/1a/05/2c/1a052c5bced0f894c536ea4e4142bac0.jpg"
+            alt="produk-2"
+          />
+          <br />
+          <span
+            ><b>Rp25,000 </b><br />
+            Baby Crab <br />kode : P02</span
+          >
+        </div>
+        <div class="produk-3">
+          <img
+            src="https://i.pinimg.com/564x/4b/ae/80/4bae8004a87db0afbfffe7163000ec15.jpg"
+            alt="produk-3"
+          />
+          <br />
+          <span
+            ><b>Rp15,000 </b><br />
+            keripik udang <br />kode : P03</span
+          >
+        </div>
+        <div class="produk-4">
+          <img
+            src="https://i.pinimg.com/564x/3e/a0/fc/3ea0fc7a377e00e862589b3f1740ce0e.jpg"
+            alt="produk-4"
+          />
+          <br />
+          <span
+            ><b>Rp10,000 </b><br />
+            Cumi Krispi <br />kode : P04</span
+          >
+        </div>
+        <div class="produk-5">
+          <img
+            src="https://i.pinimg.com/736x/45/d1/50/45d1503593141afdb0d9ef18edc17629.jpg"
+            alt="produk-5"
+          />
+          <br />
+          <span
+            ><b>Rp20,000 </b><br />
+            Rumput Laut <br />kode : P05</span
+          >
+        </div>
+        <div class="produk-6">
+          <img
+            src="https://i.pinimg.com/564x/17/f6/73/17f673e56a1befefe07119484ee8ffd2.jpg"
+            alt="produk-6"
+          />
+          <br />
+          <span
+            ><b>Rp5,000 </b><br />
+            Kerupuk ikan <br />kode : P06</span
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <i>Copyright ©</i>&nbsp;
+      <h5>2024 - Toko Olahan Ikan Podomoro</h5>
+    </footer>
+  </body>
+</html>

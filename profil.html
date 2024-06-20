@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podomoro</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      body {
+        background-color: rgba(231, 231, 231, 0.804);
+      }
+
+      nav {
+        height: max-content;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .navigation .tokoTitle {
+        flex-grow: 2;
+        background-color: rgb(140, 149, 149);
+        padding-left: 10%;
+        padding-block: 20px;
+      }
+
+      .navigation .tokoTitle h1 {
+        color: rgb(247, 233, 155);
+      }
+
+      .navigation ul {
+        display: flex;
+        background-color: rgb(247, 233, 155);
+        align-items: center;
+        flex-grow: 1;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      /* =============== */
+
+      section {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+      }
+
+      section img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      section article {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      section aside {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      section aside h1 {
+        background-color: rgb(234, 156, 54);
+        padding: 10px;
+        border-radius: 3px;
+      }
+
+      /* =============== */
+      footer {
+        border-top: thick double rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <div class="tokoTitle">
+          <h1>Podomoro</h1>
+          <span>toko olahan ikan</span>
+        </div>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="profil.html"> Profil</a></li>
+          <li><a href="produk.html"> Produk</a></li>
+          <li><a href="galeri.html"> Galeri</a></li>
+          <li><a href="pemesanan.html"> Pemesanan</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <img
+        src="https://i.pinimg.com/564x/b6/6b/4a/b66b4af8914ce9558b34d9084304726f.jpg"
+        alt="gambar_keripik"
+      />
+      <article>
+        <h1>Profil</h1>
+        <p>
+          Toko Olahan Ikan Podomoro, menyediakan berbagai macam olahan ikan,
+          mulai dari keripik ikan, keripik udang, cumi krispi, baby crab dan
+          masih banyak lagi. Setiap produk kami diolah dengan proses yang
+          higienis dan standar kualitas yang ketat, memastikan Anda mendapatkan
+          yang terbaik di setiap hidangan.
+        </p>
+        <aside>
+          <h1>100% Higenis ✅</h1>
+          <h1>Terverifikasi Bpom ✅</h1>
+          <h1>100% Halal ✅</h1>
+        </aside>
+      </article>
+    </section>
+    <footer>
+      <i>Copyright ©</i>&nbsp;
+      <h5>2024 - Toko Olahan Ikan Podomoro</h5>
+    </footer>
+  </body>
+</html>
